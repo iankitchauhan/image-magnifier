@@ -1,0 +1,33 @@
+{
+  "name": "image-magnifier",
+  "version": "1.0.0",
+  "description": "A lightweight, framework-agnostic image magnifier using Web Components",
+  "main": "dist/image-magnifier.js",
+  "module": "dist/image-magnifier.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "image",
+    "zoom",
+    "magnifier",
+    "web-component",
+    "custom-element",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.42.0"
+  }
+}
